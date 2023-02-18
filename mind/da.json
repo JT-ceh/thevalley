@@ -1,0 +1,25 @@
+{
+    "greet" : {
+      "keys1":".*(hey|hi|hel*o).*",
+      "rp": ["Hey, how are you doing?","I am fine how are you feeling today?",
+      "Hello, how is everything?","Hi","Hey,there","Hey Tale","What's up Talent"],
+      "sug":["Great", "Not well","Good","Sad","I don't know"]
+    },
+    "els" :{
+      "rp": [
+      "What do you mean?",
+      "I'm confused, what does that even mean",
+      "Sorry, i didn't understand what you said",
+      "Do you need assistance type helpMe"],
+      "sug":["Nothing", "I want to invest","Call reception","I have a truck to hire"]
+    },
+    "good" :{
+      "keys1":".*good how yo*u.*",
+      "rp": [
+      "Really thats good to hear",
+      "Fascinating",
+      "Cool",
+      "Excellent"],
+      "sug":["Cool", "Okay bye","Go to home page","I want to know about Cailogistics"]
+    }
+}
