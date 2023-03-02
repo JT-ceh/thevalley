@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 async function start(){
-  const client = new MongoClient("mongodb+srv://vee:vee1306@veela.ws8emjn.mongodb.net/?retryWrites=true&w=majority");
+  const client = new MongoClient("mongodb+srv://vee:veelah@veela.ws8emjn.mongodb.net/?retryWrites=true&w=majority");
   await client.connect();
   db=client.db("thevalley");
   app.listen(3001,()=>console.log("Listening on 3001"));
