@@ -90,3 +90,5 @@ app.get('/gdesktop', function (req, res) {
 app.get('/gjoin', function (req, res) {
   db.collection('desktop').find({}).toArray(function (err, result) { if (err) throw err; res.send(result); })
 })
+
+module.exports = app;
